@@ -1,0 +1,19 @@
+{
+  "name": "rescuer-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Логика асимметричной игры «спасатель против саботажников»: класс Game без сети и графики",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.12"
+  }
+}
